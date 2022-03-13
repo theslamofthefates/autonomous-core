@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+	<world name="default">
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+        <include>
+            <uri>model://ground</uri>
+        </include>
+
+		<gui fullscreen='0'>
+			<camera name='world_camera'>
+				<pose>4.9 -4.3 3.7 0 0.2 2.35</pose>
+				<view_controller>orbit</view_controller>
+			</camera>
+		</gui>
+
+	</world>
+</sdf>
