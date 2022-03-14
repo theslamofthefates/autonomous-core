@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(autonomous_core)
+project(core_parallel)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -11,6 +11,11 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rosmsg
   rospy
+  image_transport
+  cv_bridge
+  sensor_msgs
+  std_msgs
+
 )
 
 ## System dependencies are found with CMake's conventions
